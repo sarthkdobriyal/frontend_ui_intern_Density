@@ -3,6 +3,7 @@ import Header from '@components/Header'
 
 
 
+
 export const metadata = {
   title: 'Ahead app redesign',
   description: 'Density -Frontend ui challenge',
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className='font-baloo'>
         <Header />
         {children}
+       
         </body>
     </html>
   )

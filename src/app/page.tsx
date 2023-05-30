@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Banner from '@components/Banner'
 import Emotions from './emotions/page'
 import Manifesto from './manifesto/page'
+import Test from './test/page'
+import Footer from '@components/Footer'
 
 
 export default function Home() {
@@ -10,6 +12,7 @@ export default function Home() {
       <Banner />
       <Emotions />
       <Manifesto />
+      <Test />
     </main>
   )
 }

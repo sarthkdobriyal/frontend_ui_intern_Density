@@ -25,7 +25,7 @@ const ghost = {
 
 
 
-  return <div className='w-screen flex items-center justify-center ' >
+  return <div className='w-screen flex items-center justify-center mt-10' >
         <div className="flex bg-[#EFECFF] rounded-3xl w-[90%] h-[90vh] mb-5 overflow-hidden " >
             
             {/* left side */}

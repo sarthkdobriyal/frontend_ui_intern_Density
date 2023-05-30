@@ -10,7 +10,7 @@ interface headerProps {}
 
 const Header: FC<headerProps> = ({}) => {
   return (
-    <nav className="fixed z-50 bg-white w-screen px-32 py-5 items-center flex justify-between" >
+    <nav className="fixed z-50 bg-white w-screen px-32 py-5 items-center flex justify-between mb-5" >
         {/* logo */}
             <div className="flex">
                 <Image 
