@@ -149,8 +149,8 @@ const ghost = {
             {/* right side */}
             <div className=' relative flex-1 flex justify-center items-center'>
                 <motion.div
-                    initial={{scale:0,  rotate: 180}}
-                    animate={{scale:1,  rotate: 0}}
+                    initial={{x:60,  rotate: 180}}
+                    animate={{x:0,  rotate: 0}}
                     transition={{type: "string", duration: 2,}}
                 className='rounded-full border-3 border-white border-dashed h-[80%] w-[80%] flex items-center justify-center'>
                     <motion.div 
