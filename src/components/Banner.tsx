@@ -3,6 +3,8 @@
 import { FC } from 'react'
 import Image from 'next/Image'
 import { motion } from 'framer-motion'
+import { heading } from '@variants/textVariants'
+import { semicircle } from '@variants/imgVariant'
 
 interface BannerProps {
   
@@ -12,20 +14,7 @@ interface BannerProps {
 const Banner: FC<BannerProps> = ({}) => {
 
     
-const heading = {
-    hidden : {
-        x:-110,
-        opcaity: 0,
-    },
-    visible : {
-        x: 0,
-        opacity:1,
-        transition: {
-            type: "spring",
-            stiffness: 100,
-        }
-    }
-}
+
 
 const ghost = {
     initial: {x: -100, y:-74 ,scale:0, rotate: 180},
@@ -90,9 +79,9 @@ const ghost = {
                
                 
                 <motion.div
-                     initial={{ y: -10, scale: 0, rotate: 240 }}
-                     animate={{y: 0, scale: 1, rotate:-45 }}
-                     transition={{type: "spring", stiffness: 500,  repeatType: 'mirror' , duration: 2}}
+                variants={semicircle}
+                     initial='hidden'
+                     whileInView='visible'
                 className='absolute top-10 left-[40%]'>
                     <Image 
                        
