@@ -6,7 +6,7 @@ export const semicircle: Variants = {
                      
 }
 
-export const ghost: Variant = {
+export const ghost: Variants = {
     hidden: { x: -100, y: -74, scale: 0.8, rotate: 180 },
     visible: {
       x: 0,
