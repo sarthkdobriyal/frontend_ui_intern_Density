@@ -10,8 +10,8 @@ interface BannerProps {}
 
 const Banner: FC<BannerProps> = ({}) => {
   const ghost: VariantLabels = {
-    initial: { x: -100, y: -74, scale: 0.8, rotate: 180 },
-    animate: {
+    hidden: { x: -100, y: -74, scale: 0.8, rotate: 180 },
+    visible: {
       x: 0,
       y: 0,
       scale: 1,
@@ -159,15 +159,15 @@ const Banner: FC<BannerProps> = ({}) => {
 
           <motion.div
             variants={ghost}
-            initial="initial"
-            whileInView="animate"
+            initial="hidden"
+            whileInView="visible"
             className="absolute z-10 bottom-28 left-28"
           >
             <Image src="/ghost_1.png" alt="ghost" height={80} width={80} />
           </motion.div>
           <motion.div
             variants={ghost}
-            initial="initial"
+            initial="hidden"
             whileInView={{ rotate: -35, x: 0, y: 0, scale: 1 }}
             transition={{ type: "spring", stiffness: 400, duration: 10 }}
             className="absolute z-10 bottom-84 right-14"
@@ -176,8 +176,8 @@ const Banner: FC<BannerProps> = ({}) => {
           </motion.div>
           <motion.div
             variants={ghost}
-            initial="initial"
-            whileInView="animate"
+            initial="hidden"
+            whileInView="visible"
             className="absolute z-10 top-28 left-24"
           >
             <Image src="/ghost_4.png" alt="ghost_3" height={70} width={70} />
