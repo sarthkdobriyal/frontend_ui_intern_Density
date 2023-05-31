@@ -8,7 +8,12 @@ interface CardCarouselProps {
 }
 
 const CardCarousel: FC<CardCarouselProps> = ({}) => {
-    const cardData = [
+    const cardData: {
+        emoji: string,
+        heading: string,
+        para: string,
+        color: string,
+    } = [
         {
             emoji: '😁',
             heading: 'You argue with a colleague',

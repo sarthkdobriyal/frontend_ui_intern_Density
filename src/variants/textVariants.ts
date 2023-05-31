@@ -1,3 +1,5 @@
+import { Variant } from "framer-motion"
+
 export  const heading: Variant = {
     hidden : {
         x:-110,
