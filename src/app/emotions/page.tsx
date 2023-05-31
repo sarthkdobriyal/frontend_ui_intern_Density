@@ -4,7 +4,7 @@ import EmotionHeading from '../../components/EmotionHeading'
 import CardCarousel from '../../components/CardCarousel'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-interface pageProps {
+interface emotionsProps {
   
 }
 

@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import ManifestoBanner from '../../components/ManifestoBanner'
 
-interface pageProps {
+interface manifestoProps {
   
 }
 
