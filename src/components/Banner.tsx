@@ -198,7 +198,7 @@ const Banner: FC<BannerProps> = ({}) => {
 
           <motion.div
             initial={{ scale: 0.1, y: 10 }}
-            whileInView={{ sclae: [0.1, 0.4, 0.8, 1, 0.8, 1], y: 0 }}
+            whileInView={{ scale: [0.1, 0.4, 0.8, 1, 0.8, 1], y: 0 }}
             transition={{ type: "spring", stiffness: 300, duration: 10 }}
             className="absolute -top-3 left-72 h-8 w-8 rounded-full bg-[#ca7072] opacity-40"
           ></motion.div>
