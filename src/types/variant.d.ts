@@ -1,4 +1,4 @@
-type Variant {
+type Variant = {
     hidden: {
         opacity?: number,
         x?: number,
