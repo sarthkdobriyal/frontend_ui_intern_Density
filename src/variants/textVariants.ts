@@ -3,7 +3,7 @@ import { Variants } from "framer-motion"
 export  const heading: Variants = {
     hidden : {
         x:-110,
-        opcaity: 0,
+        opacity: 0,
     },
     visible : {
         x: 0,
