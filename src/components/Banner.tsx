@@ -2,14 +2,14 @@
 
 import { FC } from "react";
 import Image from "next/image";
-import { Variant, motion } from "framer-motion";
+import { Variant, VariantLabels, motion } from "framer-motion";
 import { heading } from "@variants/textVariants";
 import { semicircle } from "@variants/imgVariant";
 
 interface BannerProps {}
 
 const Banner: FC<BannerProps> = ({}) => {
-  const ghost: Variant = {
+  const ghost: VariantLabels = {
     initial: { x: -100, y: -74, scale: 0.8, rotate: 180 },
     animate: {
       x: 0,
