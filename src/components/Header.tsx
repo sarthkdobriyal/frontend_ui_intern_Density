@@ -2,8 +2,8 @@
 
 
 import { FC } from "react";
-import Image from 'next/Image'
-import Link from 'next/Link'
+import Image from 'next/image'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 interface headerProps {}

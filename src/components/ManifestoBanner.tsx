@@ -3,7 +3,7 @@ import { heading, para } from '@variants/textVariants'
 import { semicircle } from '@variants/imgVariant'
 import { FC } from "react";
 import {motion} from 'framer-motion'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 interface Banner2Props {}
 

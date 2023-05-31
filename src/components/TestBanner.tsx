@@ -1,6 +1,6 @@
 "use client"
 import { FC } from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 interface TestBannerProps {
