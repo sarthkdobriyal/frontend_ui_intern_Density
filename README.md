@@ -1,34 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend UI Challenge - Density
 
-## Getting Started
+This is a frontend UI challenge given by Density. The goal of this challenge is to create a Next.js app with Tailwind CSS and TypeScript, and incorporate animations using the Framer Motion library. The design inspiration for this project was taken from [this Dribbble shot](https://dribbble.com/shots/19807069-Ahead-app-redesign-concept).
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- Next.js
+- Tailwind CSS
+- TypeScript
+- Framer Motion
+
+## Installation
+
+1. Clone the repository:
+
+```shell
+git clone https://github.com/your-username/your-repo.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+cd your-repo
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies:
 
-## Learn More
+```shell
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
+npm run dev
+```
 
-## Deploy on Vercel
+2. Open your browser and navigate to `http://localhost:3000` to see the app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+- Smooth animations using Framer Motion
+- Interactive user experience
+
+## Project Structure
+
+```
+├── components/
+│   ├── Header.tsx
+│   └── ...
+├── pages/
+│   ├── index.tsx
+│   └── ...
+├── public/
+│   ├── images/
+│   │   └── ...
+│   └── ...
+├── .gitignore
+├── next.config.js
+├── package.json
+├── README.md
+└── tsconfig.json
+```
+
+## Acknowledgements
+
+- Design inspiration taken from [Dribbble - Ahead App Redesign Concept](https://dribbble.com/shots/19807069-Ahead-app-redesign-concept)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to customize this README according to your project's specific details and requirements.
+
+## Work to do:
+- Make it responsive
+- improve animations
+- add career page
