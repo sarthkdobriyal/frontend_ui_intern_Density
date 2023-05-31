@@ -57,13 +57,13 @@ const Banner: FC<BannerProps> = ({}) => {
             <div className="flex flex-col gap-2 items-center">
               <div className="flex gap-1">
                 {Array(5)
-                  .fill()
-                  .map((_, i) => (
+                  .fill(null)
+                  .map(( star , i) => (
                     <motion.div
                       key={i}
                       initial={{ scale: 0, opacity: 0.5 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      transition={{ type: "spring" }}
+                      transition={{ type: "spring", delay:1 }}
                     >
                       <Image
                         src="/star.png"
