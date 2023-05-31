@@ -110,7 +110,7 @@ initial={{ pathLength: 0, fill: 'none',opacity:0 }}
     whileInView={{x:0, rotate:0}}
     transition={{type: "spring", stiffness: 400, duration: 10}}
         whileHover={{scale: 1.1}}
-        whileFocus={{transleteY: -5}}
+        whileFocus={{translateY: -5}}
     className='py-3 px-4 bg-black rounded-2xl text-xl text-white font-bold tracking-wide'>Start test </motion.button>
     <span className='text-lg font-bold text-slate-600 '>Takes only 5 minutes</span>
   </div>
