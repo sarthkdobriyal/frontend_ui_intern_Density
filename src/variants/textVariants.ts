@@ -1,4 +1,4 @@
-export  const heading = {
+export  const heading: Variant = {
     hidden : {
         x:-110,
         opcaity: 0,
@@ -13,7 +13,7 @@ export  const heading = {
     }
 }
 
-export const para ={
+export const para: Variant ={
     hidden : {
         x: 221,
         opacity: 0,
@@ -31,7 +31,7 @@ export const para ={
     }
 }
 
-export const fade = {
+export const fade: Variant = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 2 } }
 }
