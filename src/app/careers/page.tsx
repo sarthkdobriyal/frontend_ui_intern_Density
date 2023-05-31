@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-interface pageProps {
+interface careersProps {
   
 }
 
