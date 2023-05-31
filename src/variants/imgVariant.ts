@@ -6,4 +6,13 @@ export const semicircle: Variant = {
                      
 }
 
-
+const ghost: Variant = {
+    hidden: { x: -100, y: -74, scale: 0.8, rotate: 180 },
+    visible: {
+      x: 0,
+      y: 0,
+      scale: 1,
+      rotate: [180, 25, -40, 30, -10, 25],
+      transition: { type: "spring", stiffness: 400, duration: 10 },
+    },
+  };
