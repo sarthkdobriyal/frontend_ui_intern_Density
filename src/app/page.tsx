@@ -8,11 +8,20 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen min-w-screen flex-col items-center justify-between p-24">
       <Banner />
+      <div className='h-screen'>
       <Emotions />
+      </div>
+      <div className='h-screen'>
       <Manifesto />
+      </div>
+      <div className='h-screen'>
       <Test />
+      </div>
+      <div className='h-screen '>
+
+      </div>
     </main>
   )
 }

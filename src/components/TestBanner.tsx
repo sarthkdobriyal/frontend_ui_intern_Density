@@ -28,7 +28,7 @@ const TestBanner: FC<TestBannerProps> = ({}) => {
 
 
 
-  return <div className='w-screen flex justify-center items-center my-10'>
+  return <div className='w-screen flex justify-center items-center mt-10'>
 
     <div className='bg-[#eef8fe] w-[80%] h-[80%] rounded-3xl flex flex-col gap-4 justify-center item-center py-8'>
 
