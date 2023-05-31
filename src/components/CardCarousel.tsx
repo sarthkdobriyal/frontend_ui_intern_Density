@@ -7,13 +7,15 @@ interface CardCarouselProps {
   
 }
 
+type CardData = {
+    emoji: string,
+    heading: string,
+    para: string,
+    color: string,
+}
+
 const CardCarousel: FC<CardCarouselProps> = ({}) => {
-    const cardData: {
-        emoji: string,
-        heading: string,
-        para: string,
-        color: string,
-    } = [
+    const cardData: CardData[] = [
         {
             emoji: '😁',
             heading: 'You argue with a colleague',
