@@ -49,8 +49,9 @@ const CardCarousel: FC<CardCarouselProps> = ({}) => {
 
   return (
     <div className='flex gap-10 overflow-x-scroll w-[80%] object-fill ' >
-       {cardData.map((card) => (
+       {cardData.map((card, i) => (
         <motion.div
+            key={i}
             initial={{opacity:0.2, x: -90 , scale:0.9}}
             whileInView={{opacity:1, x: 0, scale:1}}
             transition={{type: "spring", stiffness: 300, duration: 2}}

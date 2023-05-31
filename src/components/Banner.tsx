@@ -57,6 +57,7 @@ const ghost = {
                         {
                             Array(5).fill().map((_,i) => (
                                 <motion.div
+                                key={i}
                                 initial={{scale:0, opacity: 0.5}}
                                 animate={{scale:1, opacity: 1}}
                                 transition={{type:"spring"}}

@@ -12,7 +12,7 @@ const StartTest: FC<StartTestProps> = ({}) => {
   return <div className='w-[80%] h-screen flex flex-col justify-center gap-5 items-center my-16'>
     <motion.span variants={fade} initial='hidden' whileInView='visible' className='text-slate-700 font-semibold text-center text-2xl'> We take privacy seriously</motion.span>
     <motion.span variants={fade} initial='hidden' whileInView='visible' className='text-black  font-bold text-6xl text-center'>Before you get started</motion.span>
-    <motion.span variants={fade} initial='hidden' whileInView='visible' className="text-xl w-[50%] text-center text-slate-600">"We won't share your answers with anyone(and won't ever tell you which friend said what about you)"</motion.span>
+    <motion.span variants={fade} initial='hidden' whileInView='visible' className="text-xl w-[50%] text-center text-slate-600">&quot;We won&apos;t share your answers with anyone(and won&apos;t ever tell you which friend said what about you)&quot;</motion.span>
     <span className='text-black text-4xl'>With Love , 
         <span>
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
