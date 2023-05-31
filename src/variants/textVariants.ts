@@ -1,6 +1,6 @@
-import { Variant } from "framer-motion"
+import { Variants } from "framer-motion"
 
-export  const heading: Variant = {
+export  const heading: Variants = {
     hidden : {
         x:-110,
         opcaity: 0,
@@ -15,7 +15,7 @@ export  const heading: Variant = {
     }
 }
 
-export const para: Variant ={
+export const para: Variants ={
     hidden : {
         x: 221,
         opacity: 0,
@@ -33,7 +33,7 @@ export const para: Variant ={
     }
 }
 
-export const fade: Variant = {
+export const fade: Variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 2 } }
 }
